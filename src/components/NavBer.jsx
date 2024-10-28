@@ -28,8 +28,8 @@ const NavBer = () => {
 
 
             <ul className={`md:hidden  absolute mt-3 lg:hidden
-        ${open ? '-left-32' : "  "}
-             bg-slate-700 rounded-md duration-1000 left-4 shadow-2xl text-white p-5`} >
+        ${open ? '-left-32 ' : " left-4"}
+             bg-slate-700 rounded-md duration-1000  shadow-2xl text-white p-5`} >
                 {
                     route.map(nav =>
                         <li
